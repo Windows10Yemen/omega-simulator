@@ -1,3 +1,4 @@
+const upgradesCount = 5
 const game = {
     "numbers": {
         "getOne": function() {return 1},
@@ -22,6 +23,14 @@ const game = {
         "getEuler": function() {return Math.E},
     },
     omegas: {
-        number: new Decimal(0)
+        number: new Decimal(0),
+        omegaUpdate: null
     },
+    tabIds: null,
+    upgrades: {
+        level: new Array(upgradesCount),
+        cost: new Array(upgradesCount),
+        amount: [new Decimal(0)],
+        displayMultipler: ["x"]
+    }
 }

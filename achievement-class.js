@@ -13,7 +13,7 @@ class Achievement {
 
     updateModern() {
         if (!this.isCompleted) {
-            this.isCompleted = this.achievementUnlocked
+            this.isCompleted = this.achievementUnlocked()
             if (this.isCompleted) {
                 this.color = this.achievementColors[1]
                 alert("ACHIEVEMENT UNLOCKED:" + this.title)

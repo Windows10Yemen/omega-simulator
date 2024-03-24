@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(223, 27, 27);
+}
+
+h1, h3, .omega-tab {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+:double-button {
+    background-color: hsl(70, 11%, 11%);
+    color: hsl(32, 3%, 100%);
+}
+
+button {
+    background-color: var(--success-color);
+    color: white;
+}
+
+:root {
+    --success-color: green;
+    --failed-color: red;
+    --twenty-century-color: rgb(85, 81, 81);
+}
+
+.achievement1, .achievement2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
